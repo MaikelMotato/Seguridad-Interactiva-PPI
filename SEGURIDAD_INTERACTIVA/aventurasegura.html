@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aventura Segura - Juego Educativo de SST</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="game-container">
+    <h1>Aventura Segura - Juego Educativo de SST</h1>
+    <div id="question-container">
+      <h2 id="question">¿Qué equipo de protección personal debes usar al trabajar en altura?</h2>
+      <button class="choice" onclick="checkAnswer('correct')">a) Casco y arnés de seguridad</button>
+      <button class="choice" onclick="checkAnswer('incorrect')">b) Casco solamente</button>
+      <button class="choice" onclick="checkAnswer('incorrect')">c) Ninguno</button>
+    </div>
+    <div id="feedback-container">
+      <p id="feedback"></p>
+      <button id="next-button" onclick="nextQuestion()">Siguiente Pregunta</button>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
