@@ -22,6 +22,4 @@ function nextQuestion() {
     document.getElementById('next-button').style.display = 'none';
   }
   // Aquí continuarías con más preguntas y respuestas
-}
-
-  
+} 
